@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@pocketful/config/*": ["./src/config/*"],
+      "@pocketful/pages/*": ["./src/pages/*"],
+      "@pocketful/design-system/*": ["./src/design-system/*"],
+      "@pocketful/design-system/atoms/*": ["./src/design-system/atoms/*"],
+      "@pocketful/design-system/components/*": ["./src/design-system/components/*"],
+      "@pocketful/design-system/utils/*": ["./src/design-system/utils/*"],
+      "@pocketful/assets/*": ["./src/assets/*"],
+      "@pocketful/assets/theme/*": ["./src/assets/theme/*"],
+      "@pocketful/services/*": ["./src/modules/services/*"],
+      "@pocketful/api/*": ["./src/modules/api/*"],
+      "@pocketful/auth/*": ["./src/modules/auth/*"],
+      "@pocketful/users/*": ["./src/modules/users/*"],
+      "@pocketful/financial/*": ["./src/modules/financial/*"],
+      "@pocketful/customers-center/*": ["./src/modules/customers-center/*"],
+      "@pocketful/types/*": ["./src/types/*"],
+      "@pocketful/utils/*": ["./src/modules/utils/*"],
+      "@pocketful/graphql/*": ["./src/modules/graphql/*"],
+      "@pocketful/tickets/*": ["./src/modules/tickets/*"],
+      "@pocketful/mobx-form/*": ["./src/modules/mobx-form/*"],
+      "@pocketful/settings/*": ["./src/modules/settings/*"],
+      "@pocketful/email-subscribe-api/*": ["./src/modules/email-subscribe-api/*"],
+      "@pocketful/esh-feature-flags/*": ["./src/modules/esh-feature-flags/*"],
+      "@pocketful/esh-cms/*": ["./src/modules/esh-cms/*"],
+      "@pocketful/lists/*": ["./src/modules/lists/*"],
+      "@pocketful/reports/*": ["./src/modules/reports/*"],
+      "@pocketful/esh-mobx-form/*": ["./src/modules/esh-mobx-form/*"]
+    }
+  }
+}
